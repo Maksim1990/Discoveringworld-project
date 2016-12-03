@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sliding Boxes and Captions with jQuery tutorial</title>
+
+
+<meta name="description" content="See how to use Sliding boxes with jQuery to create a slick callout effect for your website." />
+
+<link href="slider.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		
+			*{ padding:0px; margin:0px; }
+			
+			a:link, a:visited {color:#22093e; text-decoration:none; font-weight:bold}
+			a:hover, a:active {color:#22093e; text-decoration:underline}
+			
+			.boxgrid h3{ margin:10px; color:#FFF; font:16px droid sans, Arial, sans-serif; font-weight: bold;   }
+			
+			.boxgrid{ 
+				width: 280px; 
+				height: 230px; 
+				margin:5px; 
+				float:left; 
+				background:#161613; 
+				border: solid 10px #e6e6db; 
+				overflow: hidden; 
+				position: relative; 
+				-webkit-box-shadow: 0px 0px 4px #333;
+				-moz-box-shadow: 0px 0px 4px #333
+			}
+				.boxgrid img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				
+				
+				.boxgrid img:hover{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+					
+				}
+				
+				
+				.boxgrid p{ 
+					padding: 0 10px;
+					padding-left:25px;
+					color:#afafaf; 
+					font-weight:bold; 
+					color:#fffccc; font-weight:bold;
+					font-size:13px; font-family:Arial, Helvetica, sans-serif;
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background:url(arrow.png) -1px 40px no-repeat #000;
+				border-top:2px solid #fff;
+				height: 100px; 
+				width: 100%; 
+				opacity: .9; 
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+ 			}
+ 				.captionfull .boxcaption {
+ 					top: 260;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 190;
+ 					left: 0;
+ 				}
+				
+				.moreLink {
+					display:block; 
+				height:29px; 
+				width:68px; 
+				background:url(more.png); 
+				text-indent:-9999px; 
+				position:absolute; top:65px; right:10px}
+				
+		</style>
+		
+		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				
+				
+				$('.boxgrid.caption').hover(function(){
+					$(".cover", this).stop().animate({top:'130px'},{queue:false,duration:160});
+				}, function() {
+					$(".cover", this).stop().animate({top:'190px'},{queue:false,duration:160});
+				});
+			});
+		</script>
+        
+
+        
+</head>
+
+<body class="oneColFixCtr">
+
+<div id="container">
+  <div id="mainContent">
+    <div align="center"><a href="http://www.webdesignandsuch.com"><img src="http://webdesignandsuch.com/wp-content/themes/elegant-grunge/images/wds-demo.png" style="margin-top:0px; border:0px"/></a>    </div>
+    <p style="width:800px; margin:0 auto; padding:20px; text-align:center">This is a demo showing how to use multiple sliding boxes and captions with jQuery. <br />
+    A nice way to add callouts to your website. <a href="http://webdesignandsuch.com/featured/jquery-sliding-doors-and-captions/">Check out the demo and download here</a>.</p>
+    <div style="width:960px; margin:0 auto">
+     <p >&nbsp;</p>
+     
+     <p >&nbsp;</p>
+     
+     
+ 
+         
+<!--box-->
+<div class="boxgrid caption">
+            
+				<img src="1.jpg"/>
+		<div class="cover boxcaption">
+			    <h3>Embed your Twitter Feed</h3>
+				  <p>Have Twitter? Check out how<br />
+				  to embed your Twitter feed!</p>
+                    
+          <p><a href="http://webdesignandsuch.com/tutorials/how-to-embed-a-twitter-feed-on-your-website/" class="moreLink">More</a></p>
+		</div>
+	</div>
+<!--box-->
+
+<!--box-->
+<div class="boxgrid caption">
+	<img src="2.jpg"/>
+		<div class="cover boxcaption" style="background:url(arrow.png) -1px 40px no-repeat #22093e">
+		      <h3>FancyMoves jQuery Slider</h3>
+<p>Check out this custom jQuery<br />
+product slider!</p>
+                    
+                    <p><a href="http://webdesignandsuch.com/tutorials/fancymoves-jquery-product-slider/" class="moreLink">More</a></p>
+		</div>
+	</div>
+<!--box-->
+
+<!--box-->
+<div class="boxgrid caption">
+            
+<img src="3.jpg"/>
+<div class="cover boxcaption" style="background:url(arrow.png) -1px 40px no-repeat #610f10">
+<h3>Custom Websites</h3>
+		  <p>Need a website? Beantown Design<em></em> <br />
+		  can create you a custom site.</p>
+                    
+                    <p><a href="http://beantowndesign.com" class="moreLink">More</a></p>
+		</div>
+	</div>
+<!--box-->
+
+
+
+
+
+
+
+
+
+   </div>
+    <!-- end #mainContent --></div>
+<!-- end #container --></div>
+</body>
+</html>

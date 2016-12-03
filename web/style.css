@@ -1,0 +1,81 @@
+.ld-container {
+	width:100%;
+	
+	padding:10px;
+	border:1px dotted #c0c0c0;
+}
+.ld-container button {
+    padding: 0 0 0 0;
+    border-radius: 15px;
+    background-color: #E9F4F3;
+ }
+.green:hover {
+    background-color: greenyellow;
+ }
+.red:hover {
+    background-color: red;
+ }
+.ld-btn-like {
+	text-align:center;
+	margin:0;
+	width:40px;
+	height:40px;
+}
+
+.ld-btn-dislike {
+	text-align:center;
+	margin:0;
+	width:40px;
+	height:40px;
+}
+
+.ld-img-like, .ld-img-dislike{
+	width:30px;
+	height:30px;
+}
+
+.ld-stats-bar {
+	margin:5px 0px;
+	height:5px;
+	width:150px;
+	font-size:0px;
+	line-height:0px;
+	border:1px solid #e0e0e0;
+	background-color:#ffffff;
+}
+
+.ld-bar-like {
+	float:left;
+	margin:0;
+	height:5px;
+	width:0px;
+	font-size:0px;
+	line-height:0px;
+	background-color:#008000;
+}
+
+.ld-bar-dislike {
+	float:right;
+	margin:0;
+	height:5px;
+	width:0px;
+	font-size:0px;
+	line-height:0px;
+	background-color:#d00000;
+}
+
+.ld-clear-both {
+	clear:both;
+	margin:0;
+	height:0px;
+	width:0px;
+	font-size:0px;
+	line-height:0px;
+}
+
+.ld-stats-txt {
+	color:#808080;
+	font-family:arial;
+	font-size:13px;
+}
+

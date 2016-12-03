@@ -1,0 +1,14 @@
+<?php
+class Dict{
+    
+    static function _($key){
+      $dict=$GLOBALS['dict'];  
+        if($dict[$key]){
+            return $dict[$key];
+            
+        }else $key;
+    }
+   
+}
+
+?>

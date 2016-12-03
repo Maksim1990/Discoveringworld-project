@@ -1,0 +1,249 @@
+/* Код для подключения шрифта в /css/stylename.css */
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+    font-family: "MyriadProBoldItalic";
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+    font-family: "MyriadProSemiBoldItalic";
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueLight";
+    src: url("../fonts/BrandonGrotesque/Brandon_light.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueBold";
+    src: url("../fonts/BrandonGrotesque/Brandon_bld.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueBoldIt";
+    src: url("../fonts/BrandonGrotesque/Brandon_bld_it.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueBlack";
+    src: url("../fonts/BrandonGrotesque/Brandon_blk.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueBlackIt";
+    src: url("../fonts/BrandonGrotesque/Brandon_blk_it.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueLightIt";
+    src: url("../fonts/BrandonGrotesque/Brandon_light_it.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueMedium";
+    src: url("../fonts/BrandonGrotesque/Brandon_med.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueMediumIt";
+    src: url("../fonts/BrandonGrotesque/Brandon_med_it.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueRegular";
+    src: url("../fonts/BrandonGrotesque/Brandon_reg.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueRegularIt";
+    src: url("../fonts/BrandonGrotesque/Brandon_reg_it.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueThin";
+    src: url("../fonts/BrandonGrotesque/Brandon_thin.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrandonGrotesqueThinIt";
+    src: url("../fonts/BrandonGrotesque/Brandon_thin_it.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Anonymous";
+    src: url("../fonts/Anonymous/Anonymous_Pro_BI.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Caviar";
+    src: url("../fonts/Caviar/CaviarDreams.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CaviarBold";
+    src: url("../fonts/Caviar/Caviar_Dreams_Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CaviarBoldItalic";
+    src: url("../fonts/Caviar/CaviarDreams_BoldItalic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CaviarItalic";
+    src: url("../fonts/Caviar/CaviarDreams_Italic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Myra";
+    src: url("../fonts/Myra/Myra 4F Caps Bold.ttf") format("truetype");
+    
+}
+@font-face {
+    font-family: "Gagalin-Regular";
+    src: url("../fonts/Gagalin-Regular.otf");
+    
+}
+@font-face {
+    font-family: "SAF";
+    src: url("../fonts/SAF.otf");
+    
+}
+@font-face {
+    font-family: "Nickainley-Normal";
+    src: url("../fonts/Nickainley-Normal.otf");   
+}
+@font-face {
+    font-family: "Track";
+    src: url("../fonts/Track.otf");
+    
+}
+@font-face {
+    font-family: "TrackItalic";
+    src: url("../fonts/Track Italic.otf");
+    
+}
+@font-face {
+    font-family: "Akrobat-Black";
+    src: url("../fonts/Akrobat-Black.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-Bold";
+    src: url("../fonts/Akrobat-Bold.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-ExtraBold";
+    src: url("../fonts/Akrobat-ExtraBold.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-ExtraLight";
+    src: url("../fonts/Akrobat-ExtraLight.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-Light";
+    src: url("../fonts/Akrobat-Light.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-Regular";
+    src: url("../fonts/Akrobat-Regular.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-SemiBold";
+    src: url("../fonts/Akrobat-SemiBold.otf"); 
+}
+@font-face {
+    font-family: "Akrobat-Thin";
+    src: url("../fonts/Akrobat-Thin.otf"); 
+}
+@font-face {
+    font-family: "JamesFajardo";
+    src: url("../fonts/JamesFajardo.ttf"); 
+}
+@font-face {
+    font-family: "LadylikeBB";
+    src: url("../fonts/LadylikeBB.otf"); 
+}
+@font-face {
+    font-family: "UKIJDiT";
+    src: url("../fonts/UKIJDiT.ttf"); 
+}
+@font-face {
+    font-family: "MovaviBItalic";
+    src: url("../fonts/Movavi Grotesque Black Italic.ttf"); 
+}
+@font-face {
+    font-family: "MovaviBI";
+    src: url("../fonts/Movavi Grotesque Black.ttf"); 
+}
+
+@font-face {
+    font-family: "Chevin";
+    src: url("../fonts/Chevin-Cyrillic-Bold-Italic_10485.ttf"); 
+}

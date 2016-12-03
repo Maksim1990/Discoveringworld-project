@@ -1,0 +1,18 @@
+
+
+
+
+.clear{clear: both;}
+
+
+.grid{background: url(../img/grid.png) 50% no-repeat;}
+.grid:hover{background: #7eb800 url(../img/gridw.png) 50% no-repeat;}
+.grid-active{ background: #039fd3 url(../img/gridw.png) 50% no-repeat; }
+
+.list{background:  url(../img/list.png) 50% no-repeat;}
+
+.list-active{background: #039fd3 url(../img/listw.png) 50% no-repeat;}
+
+
+
+

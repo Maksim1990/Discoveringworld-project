@@ -1,0 +1,73 @@
+*{ padding:0px; margin:0px; }
+			
+		
+			.boxgrid h3{ margin:10px; color:#FFF; font:16px droid sans, Arial, sans-serif; font-weight: bold;   }
+			
+			.boxgrid{ 
+				width: 280px; 
+				height: 230px; 
+				margin:5px; 
+				float:left; 
+				background:#161613; 
+			
+				overflow: hidden; 
+				position: relative; 
+				-webkit-box-shadow: 0px 0px 4px #333;
+				-moz-box-shadow: 0px 0px 4px #333
+			}
+				.boxgrid img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				
+				
+				.boxgrid img:hover{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+					
+				}
+				
+				
+				.boxgrid p{ 
+					padding: 0 10px;
+					padding-left:25px;
+					color:#afafaf; 
+					font-weight:bold; 
+					color:#fffccc; font-weight:bold;
+					font-size:13px; font-family:Arial, Helvetica, sans-serif;
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background:url(arrow.png) -1px 40px no-repeat #000;
+				border-top:2px solid #fff;
+				height: 100px; 
+				width: 100%; 
+				opacity: .9; 
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+ 			}
+ 				.captionfull .boxcaption {
+ 					top: 260;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 190;
+ 					left: 0;
+ 				}
+				
+				.moreLink {
+					display:block; 
+				height:29px; 
+				width:68px; 
+				background:url(more.png); 
+				text-indent:-9999px; 
+				position:absolute; top:65px; right:10px}
+				

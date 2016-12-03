@@ -1,0 +1,33 @@
+.demo_container { width:100%; margin:0 auto; 
+}
+#my_logo, .my-search{
+background-color:graytext;
+    background:url(logo1.jpg)repeat-y;
+-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */}
+.my_search { 
+
+height: 50px;
+}
+ #my_logo{height: 36px;
+ padding-top: 3px;}
+.my_logo_show {padding-top: 15px;}
+ .my-search p {float: left;
+font-family: "BrandonGrotesqueLight","Caviar";
+font-size: 25px;  
+color: #edc951;
+padding: 0 0 0 10px;
+}
+.navDate p{font-family:"Gagalin-Regular";
+font-size: 25px;
+color:whitesmoke;
+padding-top: 2px;
+padding-left: 20px;}
+#sticky_navigation_wrapper { width:100%;
+                             height:45px;
+}
+
+
+	

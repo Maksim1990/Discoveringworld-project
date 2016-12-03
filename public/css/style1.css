@@ -1,0 +1,319 @@
+/* Стили для body and внешнего контейнера */
+
+
+
+#container {
+  width: 100%;
+  background: #FAFAFA;
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 50px;
+   line-height: 1.5em;
+}
+
+/* Логотип и нижний колонтитул */
+
+#logo {
+  display: block;
+  width: 300px;
+  padding: 0 660px 20px 0;
+  border: none;
+  border-bottom: 1px solid #00a0b0;
+  margin-bottom: 40px;
+}
+
+#footer {
+
+  margin-top: 40px;
+  padding: 20px 0 0 0;
+  font-size: .8em;
+}
+
+
+/* Заголвки */
+
+h1 {
+  color: #eb6841;
+  padding:20px 0 0 40px ;
+  font-size:xx-large;
+  font-weight:900;
+  margin-bottom: 30px;
+  line-height: 1.2em;
+}
+
+
+h2, h2 a {
+  color: #edc951;
+}
+h2 a:hover {color: #A0F772;
+}
+
+h2 a {
+  text-decoration: none;
+}
+aside {background-color:#ddd;}
+
+/* Заголовки статей */
+
+#headlines {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+#headlines li {
+  margin-bottom: 2em;
+}
+
+.pubDate {
+  font-size: .8em;
+  color: #eb6841;
+ 
+  text-transform: uppercase;
+  clear:both;
+  padding-left:40px;
+}
+.pubDate1 {
+  
+  color: #eb6841;
+  padding-top: 20px;
+  text-transform: uppercase;
+   padding-left:40px;
+}
+
+#headlines .pubDate {
+  display: inline-block;
+  width: 200px;
+  font-size: .5em;
+  vertical-align: middle;
+}
+
+#headlines.archive .pubDate {
+  width: 130px;
+}
+
+.summary {
+
+  font-family: "BrandonGrotesqueLight","Caviar";
+font-size: 1.7em;
+margin: 10px 0 10px 0;
+color: white;
+}
+
+
+
+/* Заголовок для страницы администратора */
+
+#adminHeader {
+
+  padding:50px 0 0 10px;
+  border-bottom: 1px solid #00a0b0;
+
+  font-size: 0.8em;
+}
+
+
+/* Стили для формы с цветным фоном, скругленными углами и тенью */
+
+
+
+
+/* Задаем для элементов формы согласованные поля, отступы, и высоту строки */
+
+form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form ul li {
+  margin: .9em 0 0 0;
+  padding: 0;
+}
+
+form * {
+  line-height: 1em;
+}
+
+
+/* Метки полей */
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 15%;
+  padding: .4em 0 0 0;
+  margin: .15em .5em 0 0;
+}
+
+
+/* Поля */
+
+input, select, textarea {
+  display: block;
+  margin: 0;
+  padding: .4em;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+input, textarea, .date {
+  border: 2px solid #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;    
+  border-radius: 5px;
+  background: #fff;
+}
+
+input {
+  font-size: .9em;
+}
+
+select {
+  padding: 0;
+
+  position: relative;
+ 
+}
+
+textarea {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: .9em;
+height: 7em;
+  line-height: 1.5em;
+}
+
+textarea#content {
+  font-family: "Courier New", courier, fixed;
+}
+  
+
+/* Рамка вокруг поля с фокусом ввода */
+
+form *:focus {
+  border: 2px solid #7c412b;
+  outline: none;
+}
+
+
+/* Правильно заполненное поле имеет зеленый фон */
+
+input:valid, textarea:valid {
+  background: #EFFEE4;
+}
+
+
+/* Кнопки отправки */
+
+.buttons {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+input[type="submit"] {
+  display: inline;
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  border: 2px solid #edc951;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  color: #fff;
+  background: #edc951;
+  font-weight: bold;
+  -webkit-appearance: none;
+-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+input[type="submit"]:hover {
+    width: 70%;
+}
+input[type="submit"]:hover, input[type="submit"]:active {
+  cursor: pointer;
+  background: #fff;
+  color: #2D9003;
+    border: 2px solid #2D9003;
+}
+
+input[type="submit"]:active {
+  background: #eee;
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+}
+
+
+/* Таблицы */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr, th, td {
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+}
+
+table, th {
+  border: 1px solid #00a0b0;
+}
+
+th {
+  border-left: none;
+  border-right: none;
+  background: #ef7d50;
+  color: #fff;
+  cursor: default;
+}
+
+tr:nth-child(odd) {
+  background: #EDF7F3;
+}
+
+tr:nth-child(even) {
+  background: #fff;
+}
+
+tr:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+
+/* Окна для вывода статуса и сообщений об ошибках */
+
+.statusMessage, .errorMessage {
+  font-size: .8em;
+  padding: .5em;
+  margin: 2em 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+.statusMessage {
+  background-color: #2b2;
+  border: 1px solid #080;
+  color: #fff;
+}
+
+.errorMessage {
+  background-color: #f22;
+  border: 1px solid #800;
+  color: #fff;
+}
+
+#admin {margin-right: 20px;}
